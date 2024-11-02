@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+
+body , .Time, .leftSide, .rightSide
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSide{
+    flex-direction: column;
+}
+
+.digitalClock{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px 40px;
+    width: 425px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+#hours{
+    font-size: 6rem ;
+    font-weight: 600;
+}
+
+#dot{
+    
+    font-size: 4rem;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#minutes{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+#seconds{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#ampm{
+    
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: yellow;
+}
+
+.rightBottom{
+    margin-left: 68px;
+    transform: translateY(-13px);
+}
+
+.day, .date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#dd , #ddmmyy {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
